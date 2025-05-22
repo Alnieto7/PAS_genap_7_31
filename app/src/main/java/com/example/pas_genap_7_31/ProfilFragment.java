@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 public class ProfilFragment  extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_profil, container, false);
+        View view = inflater.inflate(R.layout.profil_item_layout, container, false);
 
         return view;
     }
