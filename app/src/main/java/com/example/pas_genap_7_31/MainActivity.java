@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_tim) {
                 fragment = new TimFragment();
-            } else if (itemId == R.id.nav_Profil) {
-                fragment = new ProfilFragment();
             } else if (itemId == R.id.nav_jadwal) {
                 fragment = new JadwalFragment();
+            } else if (itemId == R.id.nav_Profil) {
+                fragment = new ProfilFragment();
             }
 
             if (fragment != null) {
