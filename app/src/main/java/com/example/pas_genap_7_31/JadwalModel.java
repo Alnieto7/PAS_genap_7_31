@@ -33,19 +33,6 @@ public class JadwalModel {
     @SerializedName("strTimeLocal")
     private String strTimeLocal;
 
-    JadwalModel(String strEvent, String strPoster,String strHomeTeam,String strAwayTeam,String strHomeTeamBadge,String strAwayTeamBadge,String intHomeScore,String intAwayScore,String dateEventLocal, String strTimeLocal){
-        this.strEvent = strEvent;
-        this.strPoster = strPoster;
-        this.strHomeTeam = strHomeTeam;
-        this.strAwayTeam = strAwayTeam;
-        this.strHomeTeamBadge = strHomeTeamBadge;
-        this.strAwayTeamBadge = strAwayTeamBadge;
-        this.intHomeScore = intHomeScore;
-        this.intAwayScore = intAwayScore;
-        this.dateEventLocal = dateEventLocal;
-        this.strTimeLocal = strTimeLocal;
-    }
-
     public String getDateEventLocal() {
         return dateEventLocal;
     }

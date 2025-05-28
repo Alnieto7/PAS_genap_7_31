@@ -3,14 +3,14 @@
 
     <item
         android:id="@+id/nav_tim"
-        android:icon="@drawable/tito"
+        android:icon="@drawable/football"
         android:title="Tim" />
         <item
             android:id="@+id/nav_jadwal"
-            android:icon="@drawable/awan"
+            android:icon="@drawable/schedule"
             android:title="Jadwal" />
     <item
         android:id="@+id/nav_Profil"
-        android:icon="@drawable/awan"
+        android:icon="@drawable/user"
         android:title="Profil" />
 </menu>
